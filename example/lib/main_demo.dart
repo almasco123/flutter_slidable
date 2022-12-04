@@ -151,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           false;
                     },
                   ),
-                  children: const [
+                  children: [
                     SlideAction(color: Colors.green, icon: Icons.share),
                     SlideAction(color: Colors.amber, icon: Icons.delete),
                   ],

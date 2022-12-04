@@ -91,7 +91,7 @@ Future<void> testMotion({
 
   final pane = ActionPane(
     motion: motion,
-    children: const [
+    children: [
       Expanded(flex: 1, child: SizedBox.expand(key: key1)),
       Expanded(flex: 3, child: SizedBox.expand(key: key2)),
     ],

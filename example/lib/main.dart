@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 dismissible: DismissiblePane(onDismissed: () {}),
 
                 // All actions are defined in the children parameter.
-                children: const [
+                children: [
                   // A SlidableAction can have an icon and/or a label.
                   SlidableAction(
                     onPressed: doNothing,
@@ -107,7 +107,7 @@ class MyApp extends StatelessWidget {
               endActionPane: ActionPane(
                 motion: const ScrollMotion(),
                 dismissible: DismissiblePane(onDismissed: () {}),
-                children: const [
+                children: [
                   SlidableAction(
                     // An action can be bigger than the others.
                     flex: 2,

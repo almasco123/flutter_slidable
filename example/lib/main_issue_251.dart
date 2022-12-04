@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Slidable Example',
       home: Scaffold(
         body: ListView(
-          children: const [
+          children: [
             ListItem(
               title: 'ERIC',
               subtitle: 'Subtitle 1',

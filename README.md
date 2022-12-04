@@ -72,7 +72,7 @@ Slidable(
     dismissible: DismissiblePane(onDismissed: () {}),
 
     // All actions are defined in the children parameter.
-    children: const [
+    children: [
       // A SlidableAction can have an icon and/or a label.
       SlidableAction(
         onPressed: doNothing,

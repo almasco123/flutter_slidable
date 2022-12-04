@@ -17,7 +17,7 @@ void main() {
               direction: Axis.horizontal,
               startToEnd: true,
               initialExtentRatio: 0.5,
-              children: const [
+              children: [
                 SizedBox.expand(),
               ],
             ),

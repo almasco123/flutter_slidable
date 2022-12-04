@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage>
       body: SlidablePlayer(
         animation: controller,
         child: ListView(
-          children: const [
+          children: [
             SizedBox(height: 20),
             MySlidable(motion: BehindMotion()),
             MySlidable(motion: StretchMotion()),
